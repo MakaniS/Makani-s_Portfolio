@@ -13,7 +13,6 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden"
     >
       {/* Animated background with floating elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-gray-800 to-slate-900">
