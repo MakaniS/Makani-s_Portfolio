@@ -210,7 +210,7 @@ const Resume = () => {
 
         <div className="text-center mt-12">
           <a
-            href="/assets/Makani S-Resume.pdf"
+            href="/assets/Makani Siyamthanda-Resume.pdf"
             download
             className="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl inline-block"
           >
