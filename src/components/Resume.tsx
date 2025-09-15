@@ -5,7 +5,7 @@ const Resume = () => {
     {
       title: "Assistant Field Support Officer",
       company: "Technovera (Pty) Ltd",
-      period: "Mar 2025 – Jul 2025",
+      period: "Mar 2025 – Aug 2025",
       description:
         "Responsible for providing on-site and remote technical support for hardware and software systems across deployment sites. Tasks include installing and maintaining devices, troubleshooting field issues, assisting end-users, and documenting technical incidents. Actively support the rollout of smart locker solutions and contribute to ensuring service uptime, system reliability, and user satisfaction.",
     },
