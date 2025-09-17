@@ -1,6 +1,6 @@
-import React from "react";
+import React from "react" ;
 
-const certificates = [
+const Certificates = [
   {
     title: "Residence Mentor Certificate",
     issuer: "Tshwane University of Technology",
@@ -51,7 +51,7 @@ const certificates = [
   },
 ];
 
-const Certificates = () => {
+const certificates = () => {
   return (
     <section
       id="certificates"
@@ -72,7 +72,7 @@ const Certificates = () => {
         </div>
 
         <div className="space-y-8">
-          {certificates.map((cert, index) => (
+          {Certificates.map((cert, index) => (
             <div
               key={index}
               className="p-6 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-xl cursor-pointer"
@@ -103,4 +103,4 @@ const Certificates = () => {
   );
 };
 
-export default Certificates;
+export default certificates;

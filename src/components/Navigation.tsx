@@ -4,24 +4,27 @@ import { Menu, X } from "lucide-react";
 interface NavigationProps {
   activeSection: string;
 }
+const navItems = [
+  { id: "hero", label: "Home", href: "#hero" },
+  { id: "about", label: "About", href: "#about" },
+  { id: "services", label: "Services", href: "#services" },
+  { id: "resume", label: "Resume", href: "#resume" },
+  { id: "certificates", label: "Certificates", href: "#certificates" },
+  { id: "projects", label: "Projects", href: "#projects" },
+  { id: "testimonials", label: "Testimonials", href: "#testimonials" },
+  { id: "contact", label: "Contact", href: "#contact" },
+];
 
 const Navigation = ({ activeSection }: NavigationProps) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const navItems = [
-    { id: "hero", label: "Home", href: "#hero" },
-    { id: "about", label: "About", href: "#about" },
-    { id: "services", label: "Services", href: "#services" },
-    { id: "resume", label: "Resume", href: "#resume" },
-    { id: "projects", label: "Projects", href: "#projects" },
-    { id: "testimonials", label: "Testimonials", href: "#testimonials" },
-    { id: "contact", label: "Contact", href: "#contact" },
-  ];
-
   const handleNavClick = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const yOffset = -80; // adjust for navbar height
+      const y =
+        element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
     }
     setIsMobileMenuOpen(false);
   };
@@ -32,14 +35,7 @@ const Navigation = ({ activeSection }: NavigationProps) => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <button
-              onClick={() => {
-                const topElement = document.querySelector("#hero");
-                if (topElement) {
-                  topElement.scrollIntoView({ behavior: "smooth" });
-                } else {
-                  window.scrollTo({ top: 0, behavior: "smooth" });
-                }
-              }}
+              onClick={() => handleNavClick("#hero")}
               className="text-2xl font-bold text-white focus:outline-none hover:text-blue-400 transition-colors duration-300"
             >
               Makani S
