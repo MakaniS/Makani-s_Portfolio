@@ -60,10 +60,9 @@ const Hero = () => {
         </div>
 
         <p className="text-lg text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in animate-slide-in-left">
-          I am a Computer Systems Engineering graduate with a completed Diploma, 
-          currently advancing my expertise through a part-time Advanced Diploma at Tshwane University of Technology. 
-          Eager to launch my career, I am actively seeking entry-level or junior opportunities sourced directly through my university (varsity) connections
-          , where I can apply my developing technical foundation and contribute to innovative teams.
+         I am a Computer Systems Engineering graduate with a completed Diploma and currently pursuing a part-time Advanced Diploma at Tshwane University 
+        of Technology.Passionate about technology and innovation, I am eager to begin my professional journey by securing entry-level or junior opportunities 
+        where I can apply my growing technical expertise,contribute to dynamic teams, and continue developing as a forward-thinking engineer.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
