@@ -49,6 +49,22 @@ const Certificates = [
       "Developed a full-stack web application using Flask and PostgreSQL for backend and Python programming.",
     file: "/assets/UC-65428798-10d5-45a0-81e4-77f055e5756e.pdf",
   },
+  {
+  title: "HCSA-Audio (Hikvision Certified Security Associate)",
+  issuer: "Hikvision",
+  period: "Valid until Dec 2027",
+  description:
+    "Earned certification demonstrating knowledge in configuring, deploying, and maintaining Hikvision audio security systems.",
+  file: "/assets/HCSA-Audio.pdf",
+},
+{
+  title: "CGSA-CCTV (Certified General Security Associate)",
+  issuer: "Hikvision",
+  period: "Valid until Dec 2030",
+  description:
+    "Earned certification demonstrating knowledge in CCTV system installation, configuration, and security surveillance solutions.",
+  file: "/assets/CGSA-CCTV.pdf",
+},
 ];
 
 const certificates = () => {
