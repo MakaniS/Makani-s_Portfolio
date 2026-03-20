@@ -5,33 +5,32 @@ const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState<"left" | "right">("right");
 
-  const testimonials = [
-    {
-      name: "Kulani Baloyi",
-      position:
-        "4IR Machine Learning Intern, Tshwane University of Technology.",
-      content:
-        "Siya is a great hard worker. We were very pleased with the work done.from when we started, He has a lot of experience now..",
-      rating: 5,
-      avatar: "👨‍💻",
-    },
-    {
-      name: "Banele Qwatekana",
-      position: "4IR Machine Learning Intern, Tshwane University of Technology",
-      content:
-        "Siya was hired to create a corporate identity. We were very pleased with the work done.he has a lot of experience",
-      rating: 5,
-      avatar: "👩‍💼",
-    },
-    {
-      name: "Henry William",
-      position: "4IR Machine Learning Intern, Tshwane University of Technology",
-      content:
-        "Alex transformed our digital presence completely. The UI/UX design was intuitive and the development was flawless. Highly recommend his services!",
-      rating: 5,
-      avatar: "👨‍🚀",
-    },
-  ];
+ const testimonials = [
+  {
+    name: "Kulani Baloyi",
+    position: "4IR Machine Learning Intern, Tshwane University of Technology",
+    content:
+      "Siya is a very dedicated and hardworking individual. From the beginning of our collaboration, he showed strong commitment and growth, and he has gained valuable experience along the way.",
+    rating: 5,
+    avatar: "👨‍💻",
+  },
+  {
+    name: "Banele Qwatekana",
+    position: "4IR Machine Learning Intern, Tshwane University of Technology",
+    content:
+      "Siya was responsible for creating a corporate identity for us, and the results were impressive. His work is professional, and he clearly has strong experience in what he does.",
+    rating: 5,
+    avatar: "👩‍💼",
+  },
+  {
+    name: "Themba Mthimunye",
+    position: "Field Support Technician, Technovera",
+    content:
+      "During his time at Technovera, Siya contributed to improving our digital systems and overall user experience. His approach to problem-solving is practical, and his development work is clean and effective. I would highly recommend him.",
+    rating: 5,
+    avatar: "👨‍🚀",
+  },
+];
 
   const nextTestimonial = useCallback(() => {
     setDirection("right");
