@@ -24,7 +24,7 @@ const Testimonials = () => {
   },
   {
     name: "Themba Mthimunye",
-    position: "Field Support Technician, Technovera",
+    position: "Field Support Technician Manager, Technovera",
     content:
       "During his time at Technovera, Siya contributed to improving our digital systems and overall user experience. His approach to problem-solving is practical, and his development work is clean and effective. I would highly recommend him.",
     rating: 5,

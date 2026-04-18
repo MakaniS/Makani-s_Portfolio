@@ -73,6 +73,19 @@ const projects: Project[] = [
     category: "IoT",
     videoIds: [""],
   },
+
+  // ✅ ADDED VOTING SYSTEM (nothing else changed)
+  {
+    title: "Online Voting System",
+    description:
+      "A secure web-based voting platform that allows users to register, log in, and cast votes. The system prevents duplicate voting and ensures fairness. It includes an admin dashboard for managing candidates and viewing results in real-time.",
+    image: "/assets/last.jpg",
+    technologies: ["React", "Flask", "Firebase"],
+    liveUrl:
+      "https://tut4lifeac-my.sharepoint.com/:v:/g/personal/222727170_tut4life_ac_za/IQBfUJB9X6ApS5ncTHeh1NluAW9_sKakwSfyY_2leUGwqSE?e=XS4guM",
+    githubUrl: "https://github.com/MakaniS?tab=repositories",
+    category: "Web Development",
+  },
 ];
 
 const Alert = React.forwardRef<HTMLDivElement, AlertProps>(function Alert(
